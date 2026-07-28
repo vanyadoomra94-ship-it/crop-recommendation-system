@@ -298,8 +298,6 @@ crop_requirements = {
 }
 
 
-
-
 requirements = crop_requirements[selected_crop]
 st.success(
     f"🌾 Planning to grow {selected_crop}? "
