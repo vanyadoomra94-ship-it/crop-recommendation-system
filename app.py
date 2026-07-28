@@ -299,10 +299,8 @@ crop_requirements = {
 
 
 
-st.success(
-    f"🌾 Planning to grow {selected_crop}? "
-    "Here are the general soil and environmental requirements."
-)
+
+
 st.header(f"🌱 {selected_crop} Growing Requirements")
 st.caption(
     "General agricultural reference information. "
