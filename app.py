@@ -50,8 +50,7 @@ if mode == "Check Crop Requirements":
     )
 
     st.write("You selected:", selected_crop)
-   
-      crop_requirements = {
+crop_requirements = {
     "Wheat": {
         "Crop": "Wheat",
         "Scientific Name": "Triticum aestivum",
