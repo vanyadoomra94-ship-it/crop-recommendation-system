@@ -76,7 +76,7 @@ if mode == "Check Crop Requirements":
     "Rainfall": "High water availability is generally required",
     "Soil": "Clayey to loamy soils with good water-holding capacity"
     }
-}
+
 
 requirements = crop_requirements[selected_crop]
 
