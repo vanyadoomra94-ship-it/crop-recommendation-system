@@ -75,7 +75,6 @@ if mode == "Check Crop Requirements":
     "Soil pH": "Approximately 5.5–7.0",
     "Rainfall": "High water availability is generally required",
     "Soil": "Clayey to loamy soils with good water-holding capacity"
-},
     }
 }
 
