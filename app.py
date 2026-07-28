@@ -50,32 +50,47 @@ if mode == "Check Crop Requirements":
     )
 
     st.write("You selected:", selected_crop)
-    crop_requirements = {
-       "Wheat": {
-    "Crop": "Wheat",
-    "Scientific Name": "Triticum aestivum",
-    "Reference Condition": "HD 3226, timely-sown and irrigated conditions",
-    "Nitrogen (N)": "150 kg/ha (ICAR reference)",
-    "Phosphorus (P)": "80 kg/ha (ICAR reference)",
-    "Potassium (K)": "60 kg/ha (ICAR reference)",
-    "Temperature": "Cool growing conditions",
-    "Soil pH": "Approximately 6.0–7.5",
-    "Rainfall": "Approximately 30–90 cm",
-    "Soil": "Well-drained loamy soil is generally suitable"
-},
+   
+      crop_requirements = {
+    "Wheat": {
+        "Crop": "Wheat",
+        "Scientific Name": "Triticum aestivum",
+        "Reference Condition": "HD 3226, timely-sown and irrigated conditions",
+        "Nitrogen (N)": "150 kg/ha (ICAR reference)",
+        "Phosphorus (P)": "80 kg/ha (ICAR reference)",
+        "Potassium (K)": "60 kg/ha (ICAR reference)",
+        "Temperature": "Cool growing conditions",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 30–90 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
     },
+
     "Rice": {
-    "Crop": "Rice",
-    "Scientific Name": "Oryza sativa L.",
-    "Reference Condition": "Requirements vary by variety, soil, water availability, and cultivation system",
-    "Nitrogen (N)": "Requirement varies with soil test and cultivation system",
-    "Phosphorus (P)": "Requirement varies with soil test and cultivation system",
-    "Potassium (K)": "Requirement varies with soil test and cultivation system",
-    "Temperature": "Approximately 20–35°C",
-    "Soil pH": "Approximately 5.5–7.0",
-    "Rainfall": "High water availability is generally required",
-    "Soil": "Clayey to loamy soils with good water-holding capacity"
+        "Crop": "Rice",
+        "Scientific Name": "Oryza sativa L.",
+        "Reference Condition": "Varies by variety, soil, water availability, and cultivation system",
+        "Nitrogen (N)": "Requirement varies with soil test and cultivation system",
+        "Phosphorus (P)": "Requirement varies with soil test and cultivation system",
+        "Potassium (K)": "Requirement varies with soil test and cultivation system",
+        "Temperature": "Approximately 20–35°C",
+        "Soil pH": "Approximately 5.5–7.0",
+        "Rainfall": "High water availability is generally required",
+        "Soil": "Clayey to loamy soils with good water-holding capacity"
+    },
+
+    "Maize": {
+        "Crop": "Maize",
+        "Scientific Name": "Zea mays L.",
+        "Reference Condition": "Varies by variety, soil test, climate, and cultivation system",
+        "Nitrogen (N)": "Requirement varies with soil test and production system",
+        "Phosphorus (P)": "Requirement varies with soil test and production system",
+        "Potassium (K)": "Requirement varies with soil test and production system",
+        "Temperature": "Approximately 18–27°C",
+        "Soil pH": "Approximately 5.5–7.5",
+        "Rainfall": "Approximately 50–100 cm",
+        "Soil": "Well-drained fertile loamy soil is generally suitable"
     }
+}
 
 
 requirements = crop_requirements[selected_crop]
