@@ -1,5 +1,12 @@
 # 🌱 Crop Recommendation System
 
+## 🌐 Live Demo
+
+🚀 **Try the Crop Recommendation System:**  
+https://crop-recommendation-system-dy3xbuafb8ybu7akez5kmv.streamlit.app/
+
+
+
 A Machine Learning-based Crop Recommendation System that recommends the most suitable crop based on soil and environmental conditions.
 
 ## 📌 Project Overview
