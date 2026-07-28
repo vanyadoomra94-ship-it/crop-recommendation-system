@@ -51,8 +51,13 @@ requirements = crop_requirements[selected_crop]
 
 st.subheader(f"🌱 {selected_crop} Requirements")
 
-for parameter, value in requirements.items():
-    st.write(f"**{parameter}:** {value}")
+col1, col2 = st.columns(2)
+
+items = list(requirements.items())
+
+for i, (parameter, value) in enumerate(items):
+    with col1 if i % 2 == 0 else col2:
+        st.info(f"**{parameter}**\n\n{value}")
 
 st.warning(
     "These are agricultural reference values, not a fertilizer prescription. "
