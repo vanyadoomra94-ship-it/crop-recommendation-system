@@ -297,7 +297,10 @@ crop_requirements = {
     },
 }
 requirements = crop_requirements[selected_crop]
-
+st.success(
+    f"🌾 Planning to grow {selected_crop}? "
+    "Here are the general soil and environmental requirements."
+)
 st.subheader(f"🌱 {selected_crop} Requirements")
 
 col1, col2 = st.columns(2)
