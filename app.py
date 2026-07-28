@@ -26,7 +26,39 @@ if mode == "Check Crop Requirements":
         ["Wheat", "Rice"]
     )
 
-    st.write("You selected:", selected_crop)
+    crop_requirements = {
+    "Wheat": {
+        "Nitrogen (N)": "Reference: 150 kg/ha",
+        "Phosphorus (P)": "Reference: 80 kg/ha",
+        "Potassium (K)": "Reference: 60 kg/ha",
+        "Temperature": "Approximately 15–25°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 30–90 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+    "Rice": {
+        "Nitrogen (N)": "Reference value — varies by soil and cultivation system",
+        "Phosphorus (P)": "Reference value — varies by soil and cultivation system",
+        "Potassium (K)": "Reference value — varies by soil and cultivation system",
+        "Temperature": "Warm growing conditions",
+        "Soil pH": "Approximately 5.5–7.0",
+        "Rainfall": "High water availability is generally required",
+        "Soil": "Clayey to loamy soils with good water-holding capacity"
+    }
+}
+
+requirements = crop_requirements[selected_crop]
+
+st.subheader(f"🌱 {selected_crop} Requirements")
+
+for parameter, value in requirements.items():
+    st.write(f"**{parameter}:** {value}")
+
+st.warning(
+    "These are agricultural reference values, not a fertilizer prescription. "
+    "Actual nutrient requirements depend on soil testing, variety, location, "
+    "irrigation, and local agricultural recommendations."
+)
 
 st.write(
     "Enter the soil and environmental conditions below "
