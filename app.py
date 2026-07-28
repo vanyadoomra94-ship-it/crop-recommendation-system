@@ -17,6 +17,16 @@ mode = st.radio(
     "What would you like to do?",
     ["Recommend a Crop", "Check Crop Requirements"]
 )
+if mode == "Check Crop Requirements":
+
+    st.subheader("🌾 Select a Crop")
+
+    selected_crop = st.selectbox(
+        "Which crop do you want to grow?",
+        ["Wheat", "Rice"]
+    )
+
+    st.write("You selected:", selected_crop)
 
 st.write(
     "Enter the soil and environmental conditions below "
