@@ -296,6 +296,10 @@ crop_requirements = {
         "Soil": "Fertile, well-drained loamy to alluvial soil"
     },
 }
+
+
+
+
 requirements = crop_requirements[selected_crop]
 st.success(
     f"🌾 Planning to grow {selected_crop}? "
