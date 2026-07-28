@@ -127,8 +127,175 @@ crop_requirements = {
         "Rainfall": "Approximately 30–60 cm",
         "Soil": "Well-drained loamy soil is generally suitable"
     },
-}
+    "Pea": {
+        "Crop": "Pea",
+        "Scientific Name": "Pisum sativum L.",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and production system",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 10–25°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Moderate moisture is generally required",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
 
+    "Pigeon Pea": {
+        "Crop": "Pigeon Pea",
+        "Scientific Name": "Cajanus cajan (L.) Millsp.",
+        "Reference Condition": "Usually grown under rainfed conditions; requirements vary by variety and region",
+        "Nitrogen (N)": "Varies with soil test and production system",
+        "Phosphorus (P)": "Varies with soil test and production system",
+        "Potassium (K)": "Varies with soil test and production system",
+        "Temperature": "Warm growing conditions",
+        "Soil pH": "Approximately 6.5–7.5",
+        "Rainfall": "Moderate rainfall; sensitive to waterlogging",
+        "Soil": "Well-drained loamy or alluvial soil is generally suitable"
+    },
+
+    "Black Gram": {
+        "Crop": "Black Gram",
+        "Scientific Name": "Vigna mungo (L.) Hepper",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and season",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 25–35°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 35–75 cm",
+        "Soil": "Well-drained loamy to sandy-loam soil"
+    },
+
+    "Green Gram": {
+        "Crop": "Green Gram",
+        "Scientific Name": "Vigna radiata (L.) R. Wilczek",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and season",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 25–35°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 35–75 cm",
+        "Soil": "Well-drained sandy-loam to loamy soil"
+    },
+
+    "Groundnut": {
+        "Crop": "Groundnut",
+        "Scientific Name": "Arachis hypogaea L.",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and production system",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 25–30°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 50–100 cm",
+        "Soil": "Well-drained sandy-loam or loamy soil"
+    },
+
+    "Mustard": {
+        "Crop": "Mustard",
+        "Scientific Name": "Brassica juncea L.",
+        "Reference Condition": "Requirements vary by variety, soil test, climate, and region",
+        "Nitrogen (N)": "Varies with soil test and production system",
+        "Phosphorus (P)": "Varies with soil test and production system",
+        "Potassium (K)": "Varies with soil test and production system",
+        "Temperature": "Approximately 10–25°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 35–60 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+
+    "Sunflower": {
+        "Crop": "Sunflower",
+        "Scientific Name": "Helianthus annuus L.",
+        "Reference Condition": "Requirements vary by hybrid, soil, climate, and production system",
+        "Nitrogen (N)": "Varies with soil test and production system",
+        "Phosphorus (P)": "Varies with soil test and production system",
+        "Potassium (K)": "Varies with soil test and production system",
+        "Temperature": "Approximately 20–30°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 40–75 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+
+    "Soybean": {
+        "Crop": "Soybean",
+        "Scientific Name": "Glycine max (L.) Merr.",
+        "Reference Condition": "Requirements vary by variety, soil test, climate, and production system",
+        "Nitrogen (N)": "Varies with soil test and biological nitrogen fixation",
+        "Phosphorus (P)": "Varies with soil test and production system",
+        "Potassium (K)": "Varies with soil test and production system",
+        "Temperature": "Approximately 20–30°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 45–75 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+
+    "Kidney Beans": {
+        "Crop": "Kidney Beans",
+        "Scientific Name": "Phaseolus vulgaris L.",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and production system",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 18–25°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Moderate, well-distributed moisture is generally required",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+
+    "Moth Beans": {
+        "Crop": "Moth Beans",
+        "Scientific Name": "Vigna aconitifolia (Jacq.) Marechal",
+        "Reference Condition": "A drought-tolerant pulse crop; requirements vary by variety and region",
+        "Nitrogen (N)": "Varies with soil test and crop management",
+        "Phosphorus (P)": "Varies with soil test and crop management",
+        "Potassium (K)": "Varies with soil test and crop management",
+        "Temperature": "Approximately 25–35°C",
+        "Soil pH": "Approximately 6.0–8.0",
+        "Rainfall": "Low to moderate rainfall conditions are generally suitable",
+        "Soil": "Well-drained sandy or sandy-loam soil"
+    },
+
+    "Coconut": {
+        "Crop": "Coconut",
+        "Scientific Name": "Cocos nucifera L.",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and plantation management",
+        "Nitrogen (N)": "Varies with soil testing and plantation management",
+        "Phosphorus (P)": "Varies with soil testing and plantation management",
+        "Potassium (K)": "Varies with soil testing and plantation management",
+        "Temperature": "Approximately 20–32°C",
+        "Soil pH": "Approximately 5.5–7.5",
+        "Rainfall": "High and well-distributed moisture is generally preferred",
+        "Soil": "Deep, well-drained soils with good moisture retention"
+    },
+
+    "Coffee": {
+        "Crop": "Coffee",
+        "Scientific Name": "Coffea spp.",
+        "Reference Condition": "Requirements vary considerably by coffee species, variety, altitude, and region",
+        "Nitrogen (N)": "Varies with soil testing and plantation management",
+        "Phosphorus (P)": "Varies with soil testing and plantation management",
+        "Potassium (K)": "Varies with soil testing and plantation management",
+        "Temperature": "Moderate, species-dependent conditions",
+        "Soil pH": "Approximately 5.5–6.5",
+        "Rainfall": "Moderate to high, well-distributed rainfall",
+        "Soil": "Deep, fertile, well-drained soil rich in organic matter"
+    },
+
+    "Jute": {
+        "Crop": "Jute",
+        "Scientific Name": "Corchorus spp.",
+        "Reference Condition": "Requirements vary by species, variety, soil, climate, and region",
+        "Nitrogen (N)": "Varies with soil test and production system",
+        "Phosphorus (P)": "Varies with soil test and production system",
+        "Potassium (K)": "Varies with soil test and production system",
+        "Temperature": "Approximately 24–35°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "High rainfall and moisture are generally preferred",
+        "Soil": "Fertile, well-drained loamy to alluvial soil"
+    },
+}
 requirements = crop_requirements[selected_crop]
 
 st.subheader(f"🌱 {selected_crop} Requirements")
