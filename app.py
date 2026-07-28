@@ -301,7 +301,11 @@ st.success(
     f"🌾 Planning to grow {selected_crop}? "
     "Here are the general soil and environmental requirements."
 )
-st.subheader(f"🌱 {selected_crop} Requirements")
+st.header(f"🌱 {selected_crop} Growing Requirements")
+st.caption(
+    "General agricultural reference information. "
+    "Actual nutrient needs can vary with soil, variety, climate, and farming conditions."
+)
 
 col1, col2 = st.columns(2)
 
