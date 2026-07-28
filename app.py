@@ -306,14 +306,54 @@ st.caption(
     "General agricultural reference information. "
     "Actual nutrient needs can vary with soil, variety, climate, and farming conditions."
 )
+col1, col2, col3 = st.columns(3)
 
-col1, col2 = st.columns(2)
+st.markdown("### 🌱 Nutrient Requirements")
 
-items = list(requirements.items())
+nutrients = [
+    ("Nitrogen (N)", requirements.get("Nitrogen (N)", "Not available")),
+    ("Phosphorus (P)", requirements.get("Phosphorus (P)", "Not available")),
+    ("Potassium (K)", requirements.get("Potassium (K)", "Not available"))
+]
 
-for i, (parameter, value) in enumerate(items):
-    with col1 if i % 2 == 0 else col2:
-        st.info(f"**{parameter}**\n\n{value}")
+for i, (name, value) in enumerate(nutrients):
+    with [col1, col2, col3][i]:
+        st.metric(name, value)
+
+st.markdown("### 🌦️ Environmental Requirements")
+
+col4, col5 = st.columns(2)
+
+with col4:
+    st.info(
+        f"🌡️ **Temperature**\n\n"
+        f"{requirements.get('Temperature', 'Not available')}"
+    )
+
+    st.info(
+        f"🧪 **Soil pH**\n\n"
+        f"{requirements.get('Soil pH', 'Not available')}"
+    )
+
+with col5:
+    st.info(
+        f"🌧️ **Rainfall**\n\n"
+        f"{requirements.get('Rainfall', 'Not available')}"
+    )
+
+    st.info(
+        f"🌾 **Suitable Soil**\n\n"
+        f"{requirements.get('Soil', 'Not available')}"
+    )
+
+st.markdown("### 📌 Reference Condition")
+
+st.write(
+    requirements.get(
+        "Reference Condition",
+        "Conditions vary depending on crop and location."
+    )
+)
 
 st.warning(
     "These are agricultural reference values, not a fertilizer prescription. "
