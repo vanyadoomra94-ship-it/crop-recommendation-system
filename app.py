@@ -51,23 +51,31 @@ if mode == "Check Crop Requirements":
 
     st.write("You selected:", selected_crop)
     crop_requirements = {
-    "Wheat": {
-        "Nitrogen (N)": "Reference: 150 kg/ha",
-        "Phosphorus (P)": "Reference: 80 kg/ha",
-        "Potassium (K)": "Reference: 60 kg/ha",
-        "Temperature": "Approximately 15–25°C",
-        "Soil pH": "Approximately 6.0–7.5",
-        "Rainfall": "Approximately 30–90 cm",
-        "Soil": "Well-drained loamy soil is generally suitable"
+       "Wheat": {
+    "Crop": "Wheat",
+    "Scientific Name": "Triticum aestivum",
+    "Reference Condition": "HD 3226, timely-sown and irrigated conditions",
+    "Nitrogen (N)": "150 kg/ha (ICAR reference)",
+    "Phosphorus (P)": "80 kg/ha (ICAR reference)",
+    "Potassium (K)": "60 kg/ha (ICAR reference)",
+    "Temperature": "Cool growing conditions",
+    "Soil pH": "Approximately 6.0–7.5",
+    "Rainfall": "Approximately 30–90 cm",
+    "Soil": "Well-drained loamy soil is generally suitable"
+},
     },
     "Rice": {
-        "Nitrogen (N)": "Reference value — varies by soil and cultivation system",
-        "Phosphorus (P)": "Reference value — varies by soil and cultivation system",
-        "Potassium (K)": "Reference value — varies by soil and cultivation system",
-        "Temperature": "Warm growing conditions",
-        "Soil pH": "Approximately 5.5–7.0",
-        "Rainfall": "High water availability is generally required",
-        "Soil": "Clayey to loamy soils with good water-holding capacity"
+    "Crop": "Rice",
+    "Scientific Name": "Oryza sativa L.",
+    "Reference Condition": "Requirements vary by variety, soil, water availability, and cultivation system",
+    "Nitrogen (N)": "Requirement varies with soil test and cultivation system",
+    "Phosphorus (P)": "Requirement varies with soil test and cultivation system",
+    "Potassium (K)": "Requirement varies with soil test and cultivation system",
+    "Temperature": "Approximately 20–35°C",
+    "Soil pH": "Approximately 5.5–7.0",
+    "Rainfall": "High water availability is generally required",
+    "Soil": "Clayey to loamy soils with good water-holding capacity"
+},
     }
 }
 
