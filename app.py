@@ -88,9 +88,46 @@ crop_requirements = {
         "Soil pH": "Approximately 5.5–7.5",
         "Rainfall": "Approximately 50–100 cm",
         "Soil": "Well-drained fertile loamy soil is generally suitable"
-    }
-}
+    },
+    "Cotton": {
+        "Crop": "Cotton",
+        "Scientific Name": "Gossypium spp.",
+        "Reference Condition": "Requirements vary by species, variety, soil, and region",
+        "Nitrogen (N)": "Requirement varies with soil testing and production system",
+        "Phosphorus (P)": "Requirement varies with soil testing and production system",
+        "Potassium (K)": "Important nutrient; requirement varies with soil and crop conditions",
+        "Temperature": "Approximately 21–30°C",
+        "Soil pH": "Approximately 5.5–8.0",
+        "Rainfall": "Approximately 50–100 cm",
+        "Soil": "Well-drained fertile loamy or black soils are generally suitable"
+    },
 
+    "Sugarcane": {
+        "Crop": "Sugarcane",
+        "Scientific Name": "Saccharum officinarum",
+        "Reference Condition": "Requirements vary by variety, soil, climate, and irrigation",
+        "Nitrogen (N)": "Requirement varies with soil testing and production system",
+        "Phosphorus (P)": "Requirement varies with soil testing and production system",
+        "Potassium (K)": "Important nutrient; requirement varies with soil and crop conditions",
+        "Temperature": "Approximately 20–35°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 75–150 cm",
+        "Soil": "Deep, fertile, well-drained loamy soil is generally suitable"
+    },
+
+    "Barley": {
+        "Crop": "Barley",
+        "Scientific Name": "Hordeum vulgare L.",
+        "Reference Condition": "Requirements vary by variety, soil test, climate, and production system",
+        "Nitrogen (N)": "Requirement varies with soil testing and production system",
+        "Phosphorus (P)": "Requirement varies with soil testing and production system",
+        "Potassium (K)": "Requirement varies with soil testing and production system",
+        "Temperature": "Approximately 12–25°C",
+        "Soil pH": "Approximately 6.0–7.5",
+        "Rainfall": "Approximately 30–60 cm",
+        "Soil": "Well-drained loamy soil is generally suitable"
+    },
+}
 
 requirements = crop_requirements[selected_crop]
 
