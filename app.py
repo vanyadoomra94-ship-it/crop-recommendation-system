@@ -13,6 +13,10 @@ model = joblib.load("crop_recommendation_model.pkl")
 
 # Title
 st.title("🌱 Crop Recommendation System")
+mode = st.radio(
+    "What would you like to do?",
+    ["Recommend a Crop", "Check Crop Requirements"]
+)
 
 st.write(
     "Enter the soil and environmental conditions below "
