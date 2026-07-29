@@ -372,49 +372,9 @@ if mode == "Check Crop Requirements":
 
 
 
-st.caption(
-    "General agricultural reference information. "
-    "Actual nutrient needs can vary with soil, variety, climate, and farming conditions."
-)
-col1, col2, col3 = st.columns(3)
 
-st.markdown("### 🌱 Nutrient Requirements")
 
-nutrients = [
-    ("Nitrogen (N)", requirements.get("Nitrogen (N)", "Not available")),
-    ("Phosphorus (P)", requirements.get("Phosphorus (P)", "Not available")),
-    ("Potassium (K)", requirements.get("Potassium (K)", "Not available"))
-]
 
-for i, (name, value) in enumerate(nutrients):
-    with [col1, col2, col3][i]:
-        st.metric(name, value)
-
-st.markdown("### 🌦️ Environmental Requirements")
-
-col4, col5 = st.columns(2)
-
-with col4:
-    st.info(
-        f"🌡️ **Temperature**\n\n"
-        f"{requirements.get('Temperature', 'Not available')}"
-    )
-
-    st.info(
-        f"🧪 **Soil pH**\n\n"
-        f"{requirements.get('Soil pH', 'Not available')}"
-    )
-
-with col5:
-    st.info(
-        f"🌧️ **Rainfall**\n\n"
-        f"{requirements.get('Rainfall', 'Not available')}"
-    )
-
-    st.info(
-        f"🌾 **Suitable Soil**\n\n"
-        f"{requirements.get('Soil', 'Not available')}"
-    )
 
 st.markdown("### 📌 Reference Condition")
 
