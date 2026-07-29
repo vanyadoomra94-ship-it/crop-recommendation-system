@@ -328,8 +328,7 @@ if mode == "Check Crop Requirements":
         )
 requirements = {}
 
-
-        st.markdown("### 📌 Reference Condition")
+st.markdown("### 📌 Reference Condition")
 
 st.info(
     requirements.get(
