@@ -359,7 +359,7 @@ if mode == "Check Crop Requirements":
             f"{requirements.get('Soil', 'Not available')}"
         )
 requirements = {}
-    st.markdown("### 📌 Reference Condition")
+st.markdown("### 📌 Reference Condition")
 
     st.write(
         requirements.get(
