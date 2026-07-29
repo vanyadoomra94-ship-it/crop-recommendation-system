@@ -17,39 +17,7 @@ mode = st.radio(
     "What would you like to do?",
     ["Recommend a Crop", "Check Crop Requirements"]
 )
-if mode == "Check Crop Requirements":
 
-    st.subheader("🌾 Select a Crop")
-
-    selected_crop = st.selectbox(
-        "Which crop do you want to grow?",
-        [
-            "Wheat",
-            "Rice",
-            "Maize",
-            "Cotton",
-            "Sugarcane",
-            "Barley",
-            "Millet",
-            "Chickpea",
-            "Lentil",
-            "Pea",
-            "Pigeon Pea",
-            "Black Gram",
-            "Green Gram",
-            "Groundnut",
-            "Mustard",
-            "Sunflower",
-            "Soybean",
-            "Kidney Beans",
-            "Moth Beans",
-            "Coconut",
-            "Coffee",
-            "Jute"
-        ]
-    )
-
-    st.write("You selected:", selected_crop)
 crop_requirements = {
     "Wheat": {
         "Crop": "Wheat",
@@ -360,13 +328,15 @@ if mode == "Check Crop Requirements":
         )
 requirements = {}
 
-st.markdown("### 📌 Reference Condition")
 
-st.write(
-        requirements.get(
-            "Reference Condition",
-            "Conditions vary depending on crop and location."
-        )
+        st.markdown("### 📌 Reference Condition")
+
+st.info(
+    requirements.get(
+        "Reference Condition",
+        "Conditions vary depending on crop and location."
+    )
+
     )
 
 
